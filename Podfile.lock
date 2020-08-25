@@ -1,22 +1,42 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - TRULogining (0.1.0):
     - TRUNetworking
-  - TRUNetworking (0.1.0)
+  - TRUNetworking (0.2.0):
+    - AFNetworking
 
 DEPENDENCIES:
   - TRULogining (from `Lib/TRULogining`)
-  - TRUNetworking (from `Lib/TRUNetworking`)
+  - TRUNetworking
+
+SPEC REPOS:
+  https://gitee.com/mirrors/CocoaPods-Specs:
+    - AFNetworking
+    - TRUNetworking
 
 EXTERNAL SOURCES:
   TRULogining:
     :path: Lib/TRULogining
-  TRUNetworking:
-    :path: Lib/TRUNetworking
 
 SPEC CHECKSUMS:
-  TRULogining: 3e0c187003f4e85ee3bc05d7182a3304e59c902d
-  TRUNetworking: 4b3519c64eec66ed803d00f32ebe18a52a66d095
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  TRULogining: 58ea08183ae591423f3585d50824df08282629d8
+  TRUNetworking: 8abf905c31b421c2f81be6b833a3840e6d1ea20f
 
-PODFILE CHECKSUM: 7e3ee83ac382d22a496ea2193a96204fcf5a6d1e
+PODFILE CHECKSUM: 320b720f065a34f347aca26e94d38b0574eff448
 
 COCOAPODS: 1.8.4

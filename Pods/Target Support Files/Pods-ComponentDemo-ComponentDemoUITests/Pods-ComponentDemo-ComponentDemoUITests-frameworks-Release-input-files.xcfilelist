@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-ComponentDemo-ComponentDemoUITests/Pods-ComponentDemo-ComponentDemoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/TRULogining/TRULogining.framework
 ${BUILT_PRODUCTS_DIR}/TRUNetworking/TRUNetworking.framework

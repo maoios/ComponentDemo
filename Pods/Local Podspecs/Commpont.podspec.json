@@ -1,0 +1,22 @@
+{
+  "name": "Commpont",
+  "version": "0.1.0",
+  "summary": "A short description of Commpont.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/maoios/Commpont",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "maoios": "1246970327@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/maoios/Commpont.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Commpont/Classes/**/*"
+}
